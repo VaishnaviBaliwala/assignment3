@@ -1,0 +1,17 @@
+var a=5,b :Int
+let i,j,k :Int
+b=a
+for i in 1...a
+{
+  for j in 1...i
+  {
+    print(j,terminator:" ")
+  }
+  for k in 1...b
+  {
+    print(" ",terminator:" ")
+  }
+  b=b-1
+  print("\n")
+}
+print("\n")
